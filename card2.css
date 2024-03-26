@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 75%;
+    text-align: center;
+}
+#amountbox{
+    width: 80%;
+    height: 10%;
+    background-color: aquamarine;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+button{
+    width: 80%;
+    height: 9%;
+    background-color: rgb(22, 22, 79);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
+}
+#an{
+    text-decoration: none;
+    color: rgb(46, 43, 43);
+    font-weight: bold;
+    font-size: large;
+}
+#imagebox img{
+    height: 20%;
+    width: 10%;
+    border-radius: 100%;
+}
+#leftbox{
+    /* width: fit-content; */
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#imagebox img{
+    height: 2rem;
+    width: 2rem;
+}
